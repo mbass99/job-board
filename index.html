@@ -61,6 +61,7 @@ footer p{margin:4px 0}
     <span class="sp"></span>
     <select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select>
     <button class="link" id="gone" hidden></button>
+    <button class="link" id="all"></button>
   </div>
   <div id="list"><p class="note">Loading roles...</p></div>
   <footer><p id="updated"></p><div id="report"></div></footer>
@@ -73,12 +74,13 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 let dismissed = new Set();
 try { dismissed = new Set(JSON.parse(localStorage.getItem('dismissed') || '[]')); } catch {}
 const store = () => { try { localStorage.setItem('dismissed', JSON.stringify([...dismissed])); } catch {} };
-const S = { jobs: [], disc: '', q: '', co: '', work: [], sort: 'new', showGone: false, shown: PAGE };
+const S = { jobs: [], disc: '', q: '', co: '', work: [], sort: 'new',  showAll: false, showGone: false, shown: PAGE };
 
 const day = d => Math.floor((Date.now() - new Date(d)) / 864e5);
 const when = d => { if (!d) return ''; const n = day(d); return n <= 0 ? 'Today' : n === 1 ? 'Yesterday' : n < 14 ? n + ' days ago' : Math.floor(n / 7) + ' weeks ago'; };
 const isNew = j => day(j.firstSeen) <= 1;
 const pass = (j, skip) =>
+  (S.showAll || j.fit !== false) &&
   (skip === 'disc' || !S.disc || j.discipline === S.disc) &&
   (!S.q || (j.title + ' ' + j.company).toLowerCase().includes(S.q)) &&
   (!S.co || j.company === S.co) &&
@@ -111,6 +113,7 @@ function render() {
   const nGone = dismissed.size;
   $('#gone').hidden = !nGone;
   $('#gone').textContent = S.showGone ? 'Hide dismissed' : `Show dismissed (${nGone})`;
+    $('#all').textContent = S.showAll ? 'Hide other locations' : 'Show other locations';
 
   let list = pool.filter(j => !S.disc || j.discipline === S.disc);
   if (S.sort === 'old') list = list.slice().reverse();
@@ -132,6 +135,7 @@ fetch('jobs.json?' + Date.now()).then(r => r.json()).then(d => {
   const bad = (d.report || []).filter(r => r.error), all = (d.report || []).length;
   if (all) $('#report').innerHTML = `<p>${all - bad.length} of ${all} companies reached.</p>` +
     (bad.length ? `<details><summary>${bad.length} couldn't be reached</summary><p>${bad.map(r => esc(r.company)).join(', ')}. Check the slug in companies.json.</p></details>` : '');
+      if (all) $('#report').innerHTML += `<details><summary>Per company</summary><p>${d.report.filter(r => !r.error).map(r => `${esc(r.company)}: ${r.open} open, ${r.design ?? '?'} design, ${r.kept ?? '?'} in your locations`).join('<br>')}</p></details>`;
   render();
 }).catch(() => { $('#list').innerHTML = '<p class="note">Could not load jobs.json. Open this page from GitHub Pages, not as a local file.</p>'; });
 
@@ -141,6 +145,7 @@ $('#co').addEventListener('change', e => set({ co: e.target.value }));
 $('#sort').addEventListener('change', e => set({ sort: e.target.value }));
 $('#gone').addEventListener('click', () => set({ showGone: !S.showGone }));
 $('#work').addEventListener('click', e => { const b = e.target.closest('.pill'); if (b) set({ work: S.work.includes(b.dataset.w) ? S.work.filter(x => x !== b.dataset.w) : [...S.work, b.dataset.w] }); });
+$('#all').addEventListener('click', () => set({ showAll: !S.showAll }));
 $('#list').addEventListener('click', e => {
   if (e.target.id === 'more') { S.shown += PAGE; return render(); }
   const b = e.target.closest('.x'); if (!b) return;

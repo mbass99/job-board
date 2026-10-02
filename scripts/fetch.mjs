@@ -1,5 +1,8 @@
 // Pulls open roles from public ATS job-board APIs and writes jobs.json.
 // Run: node scripts/fetch.mjs   (Node 20+, no dependencies)
+
+
+// To remove Design Engineer roles add const TITLE_NOT = /graphic|industrial|mechanical|hardware|electrical|fashion|interior|level design|sound design|engineer|junior|associate|intern\b|internship|entry/i;
 import { readFile, writeFile } from 'node:fs/promises';
 
 /* ---------- Edit these to change what shows up ---------- */
@@ -75,14 +78,19 @@ async function run(c) {
   for (const ats of order) {
     try {
       const rows = await sources[ats](c.slug);
-      report.push({ company: c.name, ats, open: rows.length });
+            const entry = { company: c.name, ats, open: rows.length, design: 0, kept: 0 };
+      report.push(entry);
       for (const r of rows) {
         if (!r.url || !TITLE_MUST.test(r.title) || TITLE_NOT.test(r.title)) continue;
         if (r.posted && new Date(r.posted).getTime() < cutoff) continue;
-        if (!keep(r.location, r.workplace)) continue;
+                entry.design++;
+        const fit = keep(r.location, r.workplace);
+        if (fit) entry.kept++;
+        else if (NOT_US.test(r.location) && !US.test(r.location)) continue;
         const posted = r.posted ? String(r.posted).slice(0, 10) : '';
         found.set(r.url, {
           title: r.title, company: c.name, url: r.url, location: r.location, discipline: discipline(r.title),
+          fit,
           type: r.type, workplace: r.workplace, salary: r.salary, posted,
           firstSeen: prev[r.url]?.firstSeen || (hadPrev ? today : posted || today)
         });
@@ -103,5 +111,5 @@ const jobs = [...found.values()].sort((a, b) => date(b).localeCompare(date(a)) |
 report.sort((a, b) => a.company.localeCompare(b.company));
 await writeFile('jobs.json', JSON.stringify({ updated: new Date().toISOString(), jobs, report }, null, 1));
 
-for (const r of report) console.log(r.error ? `FAIL  ${r.company}: ${r.error}` : `ok    ${r.company} (${r.ats}, ${r.open} open)`);
+for (const r of report) console.log(r.error ? `FAIL  ${r.company}: ${r.error}` : `ok    ${r.company} (${r.ats}, ${r.open} open, ${r.design} design, ${r.kept} kept)`;
 console.log(`\n${jobs.length} matching roles from ${report.filter(r => !r.error).length}/${report.length} companies`);
