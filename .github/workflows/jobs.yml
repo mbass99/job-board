@@ -1,0 +1,22 @@
+name: Fetch jobs
+on:
+  schedule:
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/fetch.mjs
+      - name: Commit jobs.json
+        run: |
+          git config user.name "jobs-bot"
+          git config user.email "jobs-bot@users.noreply.github.com"
+          git add jobs.json
+          git diff --staged --quiet || (git commit -m "Update jobs" && git push)
