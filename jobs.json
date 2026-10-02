@@ -1,1 +1,131 @@
-{"updated":null,"jobs":[],"report":[]}
+{
+ "updated": "2026-10-02T22:14:22.475Z",
+ "jobs": [
+  {
+   "title": "Motion Designer, Paid Social (Contract)",
+   "company": "Suno",
+   "url": "https://jobs.ashbyhq.com/suno/3da14a90-a4fb-47b9-a17e-7412a63882d4",
+   "location": "Remote; NYC; Los Angeles",
+   "discipline": "Brand & visual",
+   "type": "Contract",
+   "workplace": "Remote",
+   "salary": "$70 – $90 per hour",
+   "posted": "2026-09-25",
+   "firstSeen": "2026-09-25"
+  },
+  {
+   "title": "Design Engineer (Web & Brand)",
+   "company": "Linear",
+   "url": "https://jobs.ashbyhq.com/linear/f04f398b-6320-499d-8a60-290239d62da8",
+   "location": "North America; Europe",
+   "discipline": "Brand & visual",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "",
+   "posted": "2026-09-15",
+   "firstSeen": "2026-09-15"
+  },
+  {
+   "title": "Design Engineer",
+   "company": "Vercel",
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/6129441004",
+   "location": "Remote - United States",
+   "discipline": "Other",
+   "type": "Full-time",
+   "workplace": "Remote",
+   "salary": "",
+   "posted": "2026-09-15",
+   "firstSeen": "2026-09-15"
+  }
+ ],
+ "report": [
+  {
+   "company": "Airbnb",
+   "ats": "greenhouse",
+   "open": 154
+  },
+  {
+   "company": "Anduril",
+   "ats": "greenhouse",
+   "open": 2425
+  },
+  {
+   "company": "Boulevard",
+   "ats": "greenhouse",
+   "open": 15
+  },
+  {
+   "company": "Discord",
+   "ats": "greenhouse",
+   "open": 51
+  },
+  {
+   "company": "Figma",
+   "ats": "greenhouse",
+   "open": 163
+  },
+  {
+   "company": "GoFundMe",
+   "ats": "greenhouse",
+   "open": 24
+  },
+  {
+   "company": "Lattice",
+   "ats": "greenhouse",
+   "open": 12
+  },
+  {
+   "company": "Lightspark",
+   "ats": "ashby",
+   "open": 3
+  },
+  {
+   "company": "Linear",
+   "ats": "ashby",
+   "open": 30
+  },
+  {
+   "company": "ngrok",
+   "error": "HTTP 404"
+  },
+  {
+   "company": "Nova Credit",
+   "ats": "greenhouse",
+   "open": 8
+  },
+  {
+   "company": "Reddit",
+   "ats": "greenhouse",
+   "open": 152
+  },
+  {
+   "company": "Scopely",
+   "ats": "greenhouse",
+   "open": 168
+  },
+  {
+   "company": "Seeq",
+   "error": "HTTP 404"
+  },
+  {
+   "company": "Suno",
+   "ats": "ashby",
+   "open": 66
+  },
+  {
+   "company": "Truemed",
+   "ats": "ashby",
+   "open": 9
+  },
+  {
+   "company": "Vercel",
+   "ats": "greenhouse",
+   "open": 86
+  },
+  {
+   "company": "WorkOS",
+   "ats": "ashby",
+   "open": 31
+  }
+ ]
+}
