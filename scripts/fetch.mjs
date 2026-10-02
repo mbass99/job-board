@@ -111,5 +111,5 @@ const jobs = [...found.values()].sort((a, b) => date(b).localeCompare(date(a)) |
 report.sort((a, b) => a.company.localeCompare(b.company));
 await writeFile('jobs.json', JSON.stringify({ updated: new Date().toISOString(), jobs, report }, null, 1));
 
-for (const r of report) console.log(r.error ? `FAIL  ${r.company}: ${r.error}` : `ok    ${r.company} (${r.ats}, ${r.open} open, ${r.design} design, ${r.kept} kept)`;
+for (const r of report) console.log(r.error ? `FAIL  ${r.company}: ${r.error}` : `ok    ${r.company} (${r.ats}, ${r.open} open, ${r.design} design, ${r.kept} kept)`);
 console.log(`\n${jobs.length} matching roles from ${report.filter(r => !r.error).length}/${report.length} companies`);
