@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Open design roles</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f1f3f5;--ink:#10151a;--mut:#58636d;--rule:#d2d8de;--acc:#1d4ed8;--hl:#e3eaff;--sel:#10151a;--selink:#fff}
+@media(prefers-color-scheme:dark){:root{--bg:#0e1216;--ink:#e8ecef;--mut:#8995a0;--rule:#26303a;--acc:#86a8ff;--hl:#15233f;--sel:#e8ecef;--selink:#0e1216}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 'Schibsted Grotesk',system-ui,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+h1{font-size:2.3rem;line-height:1.05;letter-spacing:-.035em;font-weight:700;margin:44px 0 10px}
+.sub{color:var(--mut);margin:0 0 26px;max-width:34em}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.tabs{display:flex;gap:22px;overflow-x:auto;border-bottom:1px solid var(--rule)}
+.tab{background:none;border:0;border-bottom:2px solid transparent;padding:8px 0;margin-bottom:-1px;color:var(--mut);cursor:pointer;white-space:nowrap}
+.tab[aria-selected=true]{color:var(--ink);font-weight:700;border-bottom-color:var(--acc)}
+.tab small{color:var(--mut);font-weight:400;margin-left:4px}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:16px 0}
+input,select{background:transparent;border:1px solid var(--rule);border-radius:6px;padding:7px 10px}
+input{width:230px}
+.pill{background:transparent;border:1px solid var(--rule);border-radius:99px;padding:6px 13px;cursor:pointer}
+.pill[aria-pressed=true]{background:var(--sel);color:var(--selink);border-color:var(--sel)}
+.sp{flex:1}
+.link{background:none;border:0;color:var(--mut);cursor:pointer;text-decoration:underline;padding:4px}
+h2{font-size:.95rem;font-weight:700;margin:22px 0 4px;color:var(--acc)}
+ul{list-style:none;margin:0;padding:0}
+.row{display:grid;grid-template-columns:1fr 210px 100px 92px;gap:6px 18px;align-items:baseline;padding:14px 0;border-top:1px solid var(--rule)}
+.row.new{box-shadow:inset 3px 0 0 var(--acc);padding-left:14px}
+.row.gone{opacity:.45}
+.t{font-weight:700;font-size:1.05rem;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
+.t:hover{color:var(--acc);text-decoration:underline}
+.co{color:var(--ink)}
+.loc,.when{color:var(--mut);font-size:.92rem}
+.loc b{font-weight:400;color:var(--ink)}
+.act{display:flex;gap:10px;justify-content:flex-end;align-items:baseline}
+.apply{font-weight:700;color:var(--acc);text-decoration:none}
+.apply:hover{text-decoration:underline}
+.x{background:none;border:0;color:var(--mut);cursor:pointer;font-size:1.1rem;line-height:1;padding:2px 4px}
+.x:hover{color:var(--ink)}
+.note{border-top:1px solid var(--rule);padding:36px 0;color:var(--mut)}
+.more{margin:14px 0 0;width:100%;border:1px solid var(--rule);background:transparent;border-radius:6px;padding:11px;cursor:pointer}
+footer{color:var(--mut);font-size:.85rem;padding:30px 0 56px}
+footer p{margin:4px 0}
+@media(max-width:700px){h1{font-size:1.8rem}.row{grid-template-columns:1fr auto}.loc{grid-column:1}.when{grid-column:1}.act{grid-column:2;grid-row:1}input{width:100%}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Open design roles</h1>
+  <p class="sub">Pulled every morning from each company's own careers page. Apply goes straight to the company.</p>
+  <div class="tabs" id="tabs" role="tablist" aria-label="Discipline"></div>
+  <div class="bar">
+    <input id="q" type="search" placeholder="Search title or company" aria-label="Search title or company">
+    <select id="co" aria-label="Company"></select>
+    <span id="work"></span>
+    <span class="sp"></span>
+    <select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select>
+    <button class="link" id="gone" hidden></button>
+  </div>
+  <div id="list"><p class="note">Loading roles...</p></div>
+  <footer><p id="updated"></p><div id="report"></div></footer>
+</div>
+<script>
+const $ = s => document.querySelector(s);
+const ORDER = ['Product & UX','Design systems','Leadership','Brand & visual','Research','Other'];
+const PAGE = 50;
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let dismissed = new Set();
+try { dismissed = new Set(JSON.parse(localStorage.getItem('dismissed') || '[]')); } catch {}
+const store = () => { try { localStorage.setItem('dismissed', JSON.stringify([...dismissed])); } catch {} };
+const S = { jobs: [], disc: '', q: '', co: '', work: [], sort: 'new', showGone: false, shown: PAGE };
+
+const day = d => Math.floor((Date.now() - new Date(d)) / 864e5);
+const when = d => { if (!d) return ''; const n = day(d); return n <= 0 ? 'Today' : n === 1 ? 'Yesterday' : n < 14 ? n + ' days ago' : Math.floor(n / 7) + ' weeks ago'; };
+const isNew = j => day(j.firstSeen) <= 1;
+const pass = (j, skip) =>
+  (skip === 'disc' || !S.disc || j.discipline === S.disc) &&
+  (!S.q || (j.title + ' ' + j.company).toLowerCase().includes(S.q)) &&
+  (!S.co || j.company === S.co) &&
+  (!S.work.length || S.work.includes(j.workplace)) &&
+  (S.showGone || !dismissed.has(j.url));
+
+function row(j) {
+  const gone = dismissed.has(j.url);
+  const sub = [j.workplace !== 'On-site' ? j.workplace : '', j.type !== 'Full-time' ? j.type : '', j.salary].filter(Boolean).join(', ');
+  return `<li class="row${isNew(j) ? ' new' : ''}${gone ? ' gone' : ''}">
+    <div><a class="t" href="${esc(j.url)}" target="_blank" rel="noopener noreferrer">${esc(j.title)}</a><div class="co">${esc(j.company)}</div></div>
+    <div class="loc">${esc(j.location || 'Location not listed')}${sub ? `<br><b>${esc(sub)}</b>` : ''}</div>
+    <div class="when">${esc(when(j.posted || j.firstSeen))}</div>
+    <div class="act"><a class="apply" href="${esc(j.url)}" target="_blank" rel="noopener noreferrer">Apply</a>
+    <button class="x" data-u="${esc(j.url)}" aria-label="${gone ? 'Restore' : 'Dismiss'} ${esc(j.title)}" title="${gone ? 'Restore' : 'Dismiss'}">${gone ? '↺' : '×'}</button></div></li>`;
+}
+
+function render() {
+  const pool = S.jobs.filter(j => pass(j, 'disc'));
+  const counts = {};
+  pool.forEach(j => counts[j.discipline] = (counts[j.discipline] || 0) + 1);
+  const names = Object.keys(counts).sort((a, b) => ORDER.indexOf(a) - ORDER.indexOf(b));
+  $('#tabs').innerHTML = ['', ...names].map(n =>
+    `<button class="tab" role="tab" data-d="${esc(n)}" aria-selected="${n === S.disc}">${n || 'All'}<small>${n ? counts[n] : pool.length}</small></button>`).join('');
+
+  const cos = [...new Set(S.jobs.map(j => j.company))].sort();
+  $('#co').innerHTML = '<option value="">All companies</option>' + cos.map(c => `<option${c === S.co ? ' selected' : ''}>${esc(c)}</option>`).join('');
+  $('#work').innerHTML = ['Remote', 'Hybrid', 'On-site'].map(w =>
+    `<button class="pill" data-w="${w}" aria-pressed="${S.work.includes(w)}">${w}</button>`).join(' ');
+  const nGone = dismissed.size;
+  $('#gone').hidden = !nGone;
+  $('#gone').textContent = S.showGone ? 'Hide dismissed' : `Show dismissed (${nGone})`;
+
+  let list = pool.filter(j => !S.disc || j.discipline === S.disc);
+  if (S.sort === 'old') list = list.slice().reverse();
+  const page = list.slice(0, S.shown);
+  const fresh = page.filter(isNew), rest = page.filter(j => !isNew(j));
+  $('#list').innerHTML = !list.length
+    ? '<p class="note">No roles match. Clear a filter, or check back tomorrow.</p>'
+    : (fresh.length ? `<h2>New in the last 2 days</h2><ul>${fresh.map(row).join('')}</ul>${rest.length ? '<h2>Earlier</h2>' : ''}` : '') +
+      (rest.length ? `<ul>${rest.map(row).join('')}</ul>` : '') +
+      (list.length > page.length ? `<button class="more" id="more">Show ${Math.min(PAGE, list.length - page.length)} more</button>` : '');
+}
+const set = p => { Object.assign(S, p, { shown: PAGE }); render(); };
+
+fetch('jobs.json?' + Date.now()).then(r => r.json()).then(d => {
+  S.jobs = d.jobs || [];
+  $('#updated').textContent = d.updated
+    ? `Updated ${new Date(d.updated).toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' })}.`
+    : 'No data yet. Run the "Fetch jobs" workflow from the Actions tab.';
+  const bad = (d.report || []).filter(r => r.error), all = (d.report || []).length;
+  if (all) $('#report').innerHTML = `<p>${all - bad.length} of ${all} companies reached.</p>` +
+    (bad.length ? `<details><summary>${bad.length} couldn't be reached</summary><p>${bad.map(r => esc(r.company)).join(', ')}. Check the slug in companies.json.</p></details>` : '');
+  render();
+}).catch(() => { $('#list').innerHTML = '<p class="note">Could not load jobs.json. Open this page from GitHub Pages, not as a local file.</p>'; });
+
+$('#tabs').addEventListener('click', e => { const b = e.target.closest('.tab'); if (b) set({ disc: b.dataset.d }); });
+$('#q').addEventListener('input', e => set({ q: e.target.value.trim().toLowerCase() }));
+$('#co').addEventListener('change', e => set({ co: e.target.value }));
+$('#sort').addEventListener('change', e => set({ sort: e.target.value }));
+$('#gone').addEventListener('click', () => set({ showGone: !S.showGone }));
+$('#work').addEventListener('click', e => { const b = e.target.closest('.pill'); if (b) set({ work: S.work.includes(b.dataset.w) ? S.work.filter(x => x !== b.dataset.w) : [...S.work, b.dataset.w] }); });
+$('#list').addEventListener('click', e => {
+  if (e.target.id === 'more') { S.shown += PAGE; return render(); }
+  const b = e.target.closest('.x'); if (!b) return;
+  dismissed.has(b.dataset.u) ? dismissed.delete(b.dataset.u) : dismissed.add(b.dataset.u);
+  store(); render();
+});
+</script>
+</body>
+</html>
