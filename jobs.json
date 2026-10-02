@@ -1,12 +1,104 @@
 {
- "updated": "2026-10-02T22:14:22.475Z",
+ "updated": "2026-10-02T23:49:38.550Z",
  "jobs": [
+  {
+   "title": "Tooling Design Engineer, Air Vehicles",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227076007?gh_jid=5227076007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-10-02",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior PCB Design Engineer, Intelligence Systems",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5253563007?gh_jid=5253563007",
+   "location": "Reston, Virginia, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-30",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior RF Design & Test Engineer ",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5249865007?gh_jid=5249865007",
+   "location": "Costa Mesa, California, United States; Mountain View, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-30",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Product Designer, Design Systems",
+   "company": "Discord",
+   "url": "https://job-boards.greenhouse.io/discord/jobs/8846330002",
+   "location": "San Francisco Bay Area",
+   "discipline": "Design systems",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-30",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Optical Engineer, Design & Architecture",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5252359007?gh_jid=5252359007",
+   "location": "Waltham, Massachusetts, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-29",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Principal CMF Designer, Warfighter Systems",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236527007?gh_jid=5236527007",
+   "location": "Bellevue, Washington, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-28",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Staff PCB Designer/Layout Engineer, Air Dominance and Strike",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5220411007?gh_jid=5220411007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-25",
+   "firstSeen": "2026-10-02"
+  },
   {
    "title": "Motion Designer, Paid Social (Contract)",
    "company": "Suno",
    "url": "https://jobs.ashbyhq.com/suno/3da14a90-a4fb-47b9-a17e-7412a63882d4",
    "location": "Remote; NYC; Los Angeles",
    "discipline": "Brand & visual",
+   "fit": true,
    "type": "Contract",
    "workplace": "Remote",
    "salary": "$70 – $90 per hour",
@@ -14,11 +106,51 @@
    "firstSeen": "2026-09-25"
   },
   {
+   "title": "Design Director, World Systems",
+   "company": "Scopely",
+   "url": "https://job-boards.greenhouse.io/scopely/jobs/5429316008?gh_jid=5429316008",
+   "location": "US - United States",
+   "discipline": "Leadership",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-23",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Director, Product Design - AI & Context",
+   "company": "Figma",
+   "url": "https://boards.greenhouse.io/figma/jobs/6201114004?gh_jid=6201114004",
+   "location": "San Francisco, CA • New York, NY • United States",
+   "discipline": "Leadership",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-22",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Early Career, Product Designer (2027)",
+   "company": "Figma",
+   "url": "https://boards.greenhouse.io/figma/jobs/6180053004?gh_jid=6180053004",
+   "location": "San Francisco, CA • New York, NY",
+   "discipline": "Product & UX",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-22",
+   "firstSeen": "2026-10-02"
+  },
+  {
    "title": "Design Engineer (Web & Brand)",
    "company": "Linear",
    "url": "https://jobs.ashbyhq.com/linear/f04f398b-6320-499d-8a60-290239d62da8",
    "location": "North America; Europe",
    "discipline": "Brand & visual",
+   "fit": true,
    "type": "Full-time",
    "workplace": "Remote",
    "salary": "",
@@ -31,58 +163,402 @@
    "url": "https://job-boards.greenhouse.io/vercel/jobs/6129441004",
    "location": "Remote - United States",
    "discipline": "Other",
+   "fit": true,
    "type": "Full-time",
    "workplace": "Remote",
    "salary": "",
    "posted": "2026-09-15",
    "firstSeen": "2026-09-15"
+  },
+  {
+   "title": "CAD Designer, Maritime Production",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5231433007?gh_jid=5231433007",
+   "location": "Santa Ana, California, United States",
+   "discipline": "Product & UX",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-14",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Wargaming Research Systems Specialist (Game Designer)",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5231194007?gh_jid=5231194007",
+   "location": "Abu Dhabi, United Arab Emirates",
+   "discipline": "Research",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-08",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Product Designer, Space",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227607007?gh_jid=5227607007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-04",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Product Designer, Space",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5230760007?gh_jid=5230760007",
+   "location": "Seattle, Washington, United States",
+   "discipline": "Product & UX",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-04",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Product Design Manager, Growth",
+   "company": "Discord",
+   "url": "https://job-boards.greenhouse.io/discord/jobs/8780263002",
+   "location": "San Francisco Bay Area",
+   "discipline": "Leadership",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-03",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Digital Design Engineer, Air Dominance and Strike",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5228714007?gh_jid=5228714007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-02",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5229428007?gh_jid=5229428007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-02",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior RF Design Engineer, EW",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227459007?gh_jid=5227459007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-01",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Designer Advocate ",
+   "company": "Figma",
+   "url": "https://boards.greenhouse.io/figma/jobs/6176134004?gh_jid=6176134004",
+   "location": "San Francisco, CA • New York, NY • United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-01",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Learning and Development Instructional Designer, Quality",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5224360007?gh_jid=5224360007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-31",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Principal Systems Designer",
+   "company": "Scopely",
+   "url": "https://job-boards.greenhouse.io/scopely/jobs/5406914008?gh_jid=5406914008",
+   "location": "US - United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-28",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Module Design Engineer (BMS)",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5224014007?gh_jid=5224014007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-27",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Staff Battery Engineer (Pack Design/BMS)",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5224008007?gh_jid=5224008007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-27",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer, Marketplace",
+   "company": "Vercel",
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/6160974004",
+   "location": "Hybrid - San Francisco",
+   "discipline": "Product & UX",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "Hybrid",
+   "salary": "",
+   "posted": "2026-08-27",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "PCB Designer / Layout Engineer, Air Dominance and Strike",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5220410007?gh_jid=5220410007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-25",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior PCB Designer / Layout Engineer, Air Dominance and Strike",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5220408007?gh_jid=5220408007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-25",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Design Engineer, DFM / DFA",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5200146007?gh_jid=5200146007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-24",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Design Engineer, DFM / DFA",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5220624007?gh_jid=5220624007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-24",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Thermal Design Engineer",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5218901007?gh_jid=5218901007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-21",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Director, People Partners - Product, Design & Engineering",
+   "company": "Figma",
+   "url": "https://boards.greenhouse.io/figma/jobs/6150563004?gh_jid=6150563004",
+   "location": "San Francisco, CA",
+   "discipline": "Leadership",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-21",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Designer, Creative Studio & Brand Campaigns (Contract)",
+   "company": "Suno",
+   "url": "https://jobs.ashbyhq.com/suno/38e2a0ea-302b-4059-8e86-8b36ef08b352",
+   "location": "NYC; Remote",
+   "discipline": "Brand & visual",
+   "fit": false,
+   "type": "Contract",
+   "workplace": "On-site",
+   "salary": "$75 – $90 per hour",
+   "posted": "2026-08-21",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Staff PCB Design Engineer",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5217232007?gh_jid=5217232007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-20",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Product Designer, Consumer Revenue",
+   "company": "Discord",
+   "url": "https://job-boards.greenhouse.io/discord/jobs/8731898002",
+   "location": "San Francisco Bay Area",
+   "discipline": "Product & UX",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-20",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Digital Design Engineer, Air Dominance and Strike",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5214070007?gh_jid=5214070007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-19",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior EMC Design Engineer, Air Dominance and Strike",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5214112007?gh_jid=5214112007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-19",
+   "firstSeen": "2026-10-02"
   }
  ],
  "report": [
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 154
+   "open": 154,
+   "design": 0,
+   "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2425
+   "open": 2430,
+   "design": 24,
+   "kept": 0
   },
   {
    "company": "Boulevard",
    "ats": "greenhouse",
-   "open": 15
+   "open": 15,
+   "design": 0,
+   "kept": 0
   },
   {
    "company": "Discord",
    "ats": "greenhouse",
-   "open": 51
+   "open": 51,
+   "design": 3,
+   "kept": 0
   },
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 163
+   "open": 163,
+   "design": 6,
+   "kept": 0
   },
   {
    "company": "GoFundMe",
    "ats": "greenhouse",
-   "open": 24
+   "open": 24,
+   "design": 0,
+   "kept": 0
   },
   {
    "company": "Lattice",
    "ats": "greenhouse",
-   "open": 12
+   "open": 12,
+   "design": 0,
+   "kept": 0
   },
   {
    "company": "Lightspark",
    "ats": "ashby",
-   "open": 3
+   "open": 3,
+   "design": 0,
+   "kept": 0
   },
   {
    "company": "Linear",
    "ats": "ashby",
-   "open": 30
+   "open": 30,
+   "design": 2,
+   "kept": 1
   },
   {
    "company": "ngrok",
@@ -91,17 +567,23 @@
   {
    "company": "Nova Credit",
    "ats": "greenhouse",
-   "open": 8
+   "open": 8,
+   "design": 0,
+   "kept": 0
   },
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 152
+   "open": 153,
+   "design": 0,
+   "kept": 0
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 168
+   "open": 168,
+   "design": 9,
+   "kept": 0
   },
   {
    "company": "Seeq",
@@ -110,22 +592,30 @@
   {
    "company": "Suno",
    "ats": "ashby",
-   "open": 66
+   "open": 66,
+   "design": 2,
+   "kept": 1
   },
   {
    "company": "Truemed",
    "ats": "ashby",
-   "open": 9
+   "open": 9,
+   "design": 0,
+   "kept": 0
   },
   {
    "company": "Vercel",
    "ats": "greenhouse",
-   "open": 86
+   "open": 85,
+   "design": 2,
+   "kept": 1
   },
   {
    "company": "WorkOS",
    "ats": "ashby",
-   "open": 31
+   "open": 31,
+   "design": 0,
+   "kept": 0
   }
  ]
 }
