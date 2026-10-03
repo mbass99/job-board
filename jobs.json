@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T00:35:18.180Z",
+ "updated": "2026-10-03T00:39:59.126Z",
  "jobs": [
   {
    "title": "Senior Product Designer, Design Systems",
@@ -12,19 +12,6 @@
    "workplace": "On-site",
    "salary": "",
    "posted": "2026-09-30",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Principal CMF Designer, Warfighter Systems",
-   "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236527007?gh_jid=5236527007",
-   "location": "Bellevue, Washington, United States",
-   "discipline": "Other",
-   "fit": false,
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "",
-   "posted": "2026-09-28",
    "firstSeen": "2026-10-02"
   },
   {
@@ -77,32 +64,6 @@
    "workplace": "On-site",
    "salary": "",
    "posted": "2026-09-22",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "CAD Designer, Maritime Production",
-   "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5231433007?gh_jid=5231433007",
-   "location": "Santa Ana, California, United States",
-   "discipline": "Product & UX",
-   "fit": false,
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "",
-   "posted": "2026-09-14",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Wargaming Research Systems Specialist (Game Designer)",
-   "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5231194007?gh_jid=5231194007",
-   "location": "Abu Dhabi, United Arab Emirates",
-   "discipline": "Research",
-   "fit": false,
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "",
-   "posted": "2026-09-08",
    "firstSeen": "2026-10-02"
   },
   {
@@ -168,19 +129,6 @@
    "workplace": "On-site",
    "salary": "",
    "posted": "2026-09-01",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Principal Systems Designer",
-   "company": "Scopely",
-   "url": "https://job-boards.greenhouse.io/scopely/jobs/5406914008?gh_jid=5406914008",
-   "location": "US - United States",
-   "discipline": "Other",
-   "fit": false,
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "",
-   "posted": "2026-08-28",
    "firstSeen": "2026-10-02"
   },
   {
@@ -301,32 +249,6 @@
    "firstSeen": "2026-10-03"
   },
   {
-   "title": "Marketing Designer, Performance Creative (Contractor)",
-   "company": "Suno",
-   "url": "https://jobs.ashbyhq.com/suno/f3f67f4d-16f0-4221-a430-45f73e5a4eb9",
-   "location": "Remote",
-   "discipline": "Brand & visual",
-   "fit": true,
-   "type": "Contract",
-   "workplace": "Remote",
-   "salary": "$75 – $90 per hour",
-   "posted": "2026-08-11",
-   "firstSeen": "2026-10-03"
-  },
-  {
-   "title": "Circuit Designer, Space Special Programs",
-   "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5208572007?gh_jid=5208572007",
-   "location": "Chantilly, Virginia, United States; Herndon, Virginia, United States",
-   "discipline": "Other",
-   "fit": false,
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "",
-   "posted": "2026-08-10",
-   "firstSeen": "2026-10-03"
-  },
-  {
    "title": "Senior Product Designer, ArsenalOS",
    "company": "Anduril",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5208229007?gh_jid=5208229007",
@@ -350,19 +272,6 @@
    "workplace": "Remote",
    "salary": "",
    "posted": "2026-08-10",
-   "firstSeen": "2026-10-03"
-  },
-  {
-   "title": "Production Designer",
-   "company": "Linear",
-   "url": "https://jobs.ashbyhq.com/linear/b32de590-06ce-47d4-8994-66b936df908d",
-   "location": "North America; Europe",
-   "discipline": "Product & UX",
-   "fit": true,
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "",
-   "posted": "2026-08-06",
    "firstSeen": "2026-10-03"
   },
   {
@@ -392,19 +301,6 @@
    "firstSeen": "2026-10-03"
   },
   {
-   "title": "Presentation Designer",
-   "company": "Vercel",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6128387004",
-   "location": "Hybrid - San Francisco, New York City",
-   "discipline": "Other",
-   "fit": false,
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": "",
-   "posted": "2026-07-30",
-   "firstSeen": "2026-10-03"
-  },
-  {
    "title": "Senior Product Designer, Growth",
    "company": "Vercel",
    "url": "https://job-boards.greenhouse.io/vercel/jobs/6131210004",
@@ -428,19 +324,6 @@
    "workplace": "On-site",
    "salary": "",
    "posted": "2026-07-29",
-   "firstSeen": "2026-10-03"
-  },
-  {
-   "title": "Executive Assistant, Design ",
-   "company": "Figma",
-   "url": "https://boards.greenhouse.io/figma/jobs/6115082004?gh_jid=6115082004",
-   "location": "San Francisco, CA • New York, NY • United States",
-   "discipline": "Other",
-   "fit": false,
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "",
-   "posted": "2026-07-15",
    "firstSeen": "2026-10-03"
   },
   {
@@ -586,7 +469,7 @@
    "company": "Anduril",
    "ats": "greenhouse",
    "open": 2430,
-   "design": 13,
+   "design": 9,
    "kept": 7
   },
   {
@@ -607,7 +490,7 @@
    "company": "Figma",
    "ats": "greenhouse",
    "open": 162,
-   "design": 11,
+   "design": 10,
    "kept": 0
   },
   {
@@ -635,8 +518,8 @@
    "company": "Linear",
    "ats": "ashby",
    "open": 30,
-   "design": 5,
-   "kept": 3
+   "design": 3,
+   "kept": 2
   },
   {
    "company": "ngrok",
@@ -655,7 +538,7 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 153,
+   "open": 152,
    "design": 1,
    "kept": 1
   },
@@ -663,7 +546,7 @@
    "company": "Scopely",
    "ats": "greenhouse",
    "open": 168,
-   "design": 20,
+   "design": 11,
    "kept": 0
   },
   {
@@ -677,8 +560,8 @@
    "company": "Suno",
    "ats": "ashby",
    "open": 66,
-   "design": 5,
-   "kept": 3
+   "design": 4,
+   "kept": 2
   },
   {
    "company": "Truemed",
@@ -691,7 +574,7 @@
    "company": "Vercel",
    "ats": "greenhouse",
    "open": 85,
-   "design": 3,
+   "design": 2,
    "kept": 0
   },
   {
