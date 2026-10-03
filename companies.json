@@ -2,7 +2,7 @@
   { "name": "Reddit", "slug": "reddit" },
   { "name": "Discord", "slug": "discord" },
   { "name": "GoFundMe", "slug": "gofundme" },
-  { "name": "ngrok", "slug": "ngrokinc" }
+  { "name": "ngrok", "slug": "ngrokinc" },
   { "name": "Anduril", "slug": "andurilindustries" },
   { "name": "WorkOS", "slug": "workos" },
   { "name": "Lattice", "slug": "lattice" },
