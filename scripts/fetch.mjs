@@ -7,7 +7,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 
 /* ---------- Edit these to change what shows up ---------- */
 const MAX_AGE_DAYS = 180; // drop roles posted longer ago than this
-const TITLE_MUST = /design/i;
+const TITLE_MUST = /(product|ux|ui|user experience|interaction|visual|brand|motion|creative|experience|service|content|communication|web)\s+design(er)?\b|design systems?|design ops|designops|^(senior |staff |principal |lead )*designer\b|\b(head|director|vp|vice president|manager|lead)\b.*\bdesign\b|\bdesign\b.*\b(director|manager|head)\b/i;
 const TITLE_NOT = /graphic|industrial|mechanical|hardware|electrical|fashion|interior|level design|sound design|(?<!design systems? )engineer|pcb|layout|tooling|instructional|learning and development|junior|associate|intern\b|internship|entry/i;
 const LA = /los angeles|santa monica|culver city|playa vista|el segundo|burbank|pasadena|glendale|hollywood|long beach|irvine|orange county|costa mesa|newport beach|torrance|hawthorne|manhattan beach|marina del rey|sherman oaks|woodland hills|southern california|socal/i;
 const US = /united states|\bUSA?\b|\bU\.S\.|north america|americas/i;
