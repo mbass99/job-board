@@ -1,5 +1,3 @@
-//when companies use workable for roles, see seeq entry for parameters
-
 [
   { "name": "Reddit", "slug": "reddit" },
   { "name": "Discord", "slug": "discord" },
