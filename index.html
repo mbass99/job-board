@@ -17,9 +17,9 @@ h1{font-size:2.3rem;line-height:1.05;letter-spacing:-.035em;font-weight:700;marg
 button,input,select{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--acc);outline-offset:2px}
 .tabs{display:flex;gap:22px;overflow-x:auto;border-bottom:1px solid var(--rule)}
-.tab{background:none;border:0;border-bottom:2px solid transparent;padding:8px 0;margin-bottom:-1px;color:var(--mut);cursor:pointer;white-space:nowrap}
-.tab[aria-selected=true]{color:var(--ink);font-weight:700;border-bottom-color:var(--acc)}
-.tab small{color:var(--mut);font-weight:400;margin-left:4px}
+.tab{background:none;border:0;border-bottom:2px solid transparent;padding:8px 0;margin-bottom:-1px;color:var(--mut);cursor:pointer;white-space:nowrap;text-transform: capitalize;}
+.tab[aria-selected=true]{color:var(--ink);font-weight:700;border-bottom-color:var(--acc);}
+.tab small{color:var(--mut);font-weight:400;margin-left:4px;}
 .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:16px 0}
 input,select{background:transparent;border:1px solid var(--rule);border-radius:6px;padding:7px 10px}
 input{width:230px}
@@ -52,14 +52,17 @@ footer p{margin:4px 0}
 <body>
 <div class="wrap">
   <h1>Open design roles</h1>
-  <p class="sub">Pulled every morning from each company's own careers page. Apply goes straight to the company.</p>
+  <h2>Good Samaritan Work</h2>
+  <p>I created this for myself focused on <strong>LA + remote design roles,</strong> but decided to share with my community.</p>
+  <p class="sub">Pulled every morning from each company's own careers page. Apply goes straight to the company page.</p>
+   <h3>I have NO affiliation with any of these roles - Good luck!</h3>
   <div class="tabs" id="tabs" role="tablist" aria-label="Discipline"></div>
   <div class="bar">
     <input id="q" type="search" placeholder="Search title or company" aria-label="Search title or company">
     <select id="co" aria-label="Company"></select>
     <span id="work"></span>
     <span class="sp"></span>
-    <select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select>
+    <select id="sort" aria-label="Sort"><option value="new">Newest First</option><option value="old">Oldest First</option></select>
     <button class="link" id="gone" hidden></button>
     <button class="link" id="all"></button>
   </div>
@@ -68,7 +71,7 @@ footer p{margin:4px 0}
 </div>
 <script>
 const $ = s => document.querySelector(s);
-const ORDER = ['Product & UX','Design systems','Leadership','Brand & visual','Research','Other'];
+const ORDER = ['Product & UX','Design Systems','Leadership','Brand & Visual','Research','Other'];
 const PAGE = 50;
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let dismissed = new Set();
