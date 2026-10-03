@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T23:49:38.550Z",
+ "updated": "2026-10-03T00:15:16.375Z",
  "jobs": [
   {
    "title": "Tooling Design Engineer, Air Vehicles",
@@ -528,7 +528,7 @@
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 163,
+   "open": 162,
    "design": 6,
    "kept": 0
   },
@@ -562,7 +562,10 @@
   },
   {
    "company": "ngrok",
-   "error": "HTTP 404"
+   "ats": "greenhouse",
+   "open": 2,
+   "design": 0,
+   "kept": 0
   },
   {
    "company": "Nova Credit",
