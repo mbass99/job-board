@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T00:39:59.126Z",
+ "updated": "2026-10-03T00:47:50.146Z",
  "jobs": [
   {
    "title": "Senior Product Designer, Design Systems",
@@ -33,7 +33,7 @@
    "url": "https://job-boards.greenhouse.io/scopely/jobs/5429316008?gh_jid=5429316008",
    "location": "US - United States",
    "discipline": "Leadership",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -547,7 +547,7 @@
    "ats": "greenhouse",
    "open": 168,
    "design": 11,
-   "kept": 0
+   "kept": 1
   },
   {
    "company": "Seeq",
