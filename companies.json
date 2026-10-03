@@ -1,3 +1,5 @@
+//when companies use workable for roles, see seeq entry for parameters
+
 [
   { "name": "Reddit", "slug": "reddit" },
   { "name": "Discord", "slug": "discord" },
@@ -10,7 +12,7 @@
   { "name": "Lightspark", "slug": "lightspark" },
   { "name": "Nova Credit", "slug": "novacredit" },
   { "name": "Truemed", "slug": "truemed" },
-  { "name": "Seeq", "slug": "seeq" },
+  { "name": "Seeq", "slug": "seeq", "ats": "workable" },
   { "name": "Boulevard", "slug": "boulevard" },
   { "name": "Scopely", "slug": "scopely" },
   { "name": "Figma", "slug": "figma" },

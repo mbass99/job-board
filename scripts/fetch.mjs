@@ -6,10 +6,10 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
 /* ---------- Edit these to change what shows up ---------- */
-const MAX_AGE_DAYS = 45; // drop roles posted longer ago than this
+const MAX_AGE_DAYS = 180; // drop roles posted longer ago than this
 const TITLE_MUST = /design/i;
 const TITLE_NOT = /graphic|industrial|mechanical|hardware|electrical|fashion|interior|level design|sound design|junior|associate|intern\b|internship|entry/i;
-const LA = /los angeles|santa monica|culver city|playa vista|el segundo|burbank|pasadena|glendale|hollywood|long beach|irvine|orange county|southern california|socal/i;
+const LA = /los angeles|santa monica|culver city|playa vista|el segundo|burbank|pasadena|glendale|hollywood|long beach|irvine|orange county|costa mesa|newport beach|torrance|hawthorne|manhattan beach|marina del rey|sherman oaks|woodland hills|southern california|socal/i;
 const US = /united states|\bUSA?\b|\bU\.S\.|north america|americas/i;
 const NOT_US = /canada|\bUK\b|united kingdom|london|europe|emea|apac|india|germany|berlin|france|paris|ireland|dublin|australia|singapore|japan|tokyo|brazil|mexico|israel|poland|spain|netherlands|latam|latin america|toronto|vancouver/i;
 /* -------------------------------------------------------- */
@@ -59,7 +59,15 @@ const sources = {
     }));
   }
 };
-
+sources.workable = async slug => {
+  const d = await get(`https://apply.workable.com/api/v1/widget/accounts/${slug}`);
+  return (d.jobs || []).map(j => ({
+    title: j.title, url: j.url || j.application_url,
+    location: [j.city, j.state, j.country].filter(Boolean).join(', '),
+    posted: j.published_on || j.created_at, workplace: j.telecommuting ? 'Remote' : 'On-site',
+    type: kind(j.employment_type), salary: ''
+  }));
+};
 const companies = JSON.parse(await readFile('companies.json', 'utf8'));
 let prev = {}, hadPrev = false;
 try {
