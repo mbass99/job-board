@@ -15,7 +15,7 @@ const NOT_US = /canada|\bUK\b|united kingdom|london|europe|emea|apac|india|germa
 /* -------------------------------------------------------- */
 
 const inLA = l => LA.test(l) || /\bLA\b/.test(l);
-const keep = (l, w) => inLA(l) || (w === 'Remote' && (US.test(l) || !NOT_US.test(l))) || /^\s*(US\s*-\s*)?(United States|USA?)\s*$/i.test(l);
+const keep = (l, w) => inLA(l) || !l.trim() || (w === 'Remote' && (US.test(l) || !NOT_US.test(l))) || /^\s*(US\s*-\s*)?(United States|USA?)\s*$/i.test(l);
 const wp = s => (/remote/i.test(s || '') ? 'Remote' : /hybrid/i.test(s || '') ? 'Hybrid' : 'On-site');
 const kind = s => (/part/i.test(s || '') ? 'Part-time' : /contract|temp/i.test(s || '') ? 'Contract' : /intern/i.test(s || '') ? 'Intern' : 'Full-time');
 const discipline = t =>
