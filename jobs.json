@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T17:57:25.099Z",
+ "updated": "2026-10-05T21:25:21.063Z",
  "jobs": [
   {
    "title": "Senior Product Designer, Design Systems",
@@ -442,33 +442,20 @@
    "salary": "",
    "posted": "2026-04-23",
    "firstSeen": "2026-10-03"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Truemed",
-   "url": "https://jobs.ashbyhq.com/truemed/d7cb751f-d5d9-4cd9-8987-ebb0816b7068",
-   "location": "Los Angeles, San Francisco, Austin",
-   "discipline": "Product & UX",
-   "fit": true,
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "",
-   "posted": "2026-04-07",
-   "firstSeen": "2026-10-03"
   }
  ],
  "report": [
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 154,
+   "open": 150,
    "design": 1,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2430,
+   "open": 2447,
    "design": 9,
    "kept": 7
   },
@@ -489,7 +476,7 @@
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 162,
+   "open": 164,
    "design": 10,
    "kept": 0
   },
@@ -517,7 +504,7 @@
   {
    "company": "Linear",
    "ats": "ashby",
-   "open": 30,
+   "open": 29,
    "design": 3,
    "kept": 2
   },
@@ -545,14 +532,14 @@
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 168,
+   "open": 166,
    "design": 11,
    "kept": 1
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 24,
+   "open": 25,
    "design": 1,
    "kept": 1
   },
@@ -567,20 +554,20 @@
    "company": "Truemed",
    "ats": "ashby",
    "open": 9,
-   "design": 1,
-   "kept": 1
+   "design": 0,
+   "kept": 0
   },
   {
    "company": "Vercel",
    "ats": "greenhouse",
-   "open": 85,
+   "open": 83,
    "design": 2,
    "kept": 0
   },
   {
    "company": "WorkOS",
    "ats": "ashby",
-   "open": 31,
+   "open": 30,
    "design": 1,
    "kept": 1
   }
