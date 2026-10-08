@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T19:41:48.447Z",
+ "updated": "2026-10-08T19:38:11.686Z",
  "jobs": [
   {
    "title": "Senior Product Designer, Design Systems",
@@ -67,6 +67,32 @@
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Senior Product Designer, Space",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5230760007?gh_jid=5230760007",
+   "location": "Seattle, Washington, United States",
+   "discipline": "Product & UX",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-04",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "title": "Senior Product Designer, Space",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227607007?gh_jid=5227607007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-04",
+   "firstSeen": "2026-10-08"
+  },
+  {
    "title": "Senior Product Design Manager, Growth",
    "company": "Discord",
    "url": "https://job-boards.greenhouse.io/discord/jobs/8780263002",
@@ -80,17 +106,17 @@
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Designer Advocate ",
-   "company": "Figma",
-   "url": "https://boards.greenhouse.io/figma/jobs/6176134004?gh_jid=6176134004",
-   "location": "San Francisco, CA • New York, NY • United States",
-   "discipline": "Other",
-   "fit": false,
+   "title": "Senior Product Designer",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5229428007?gh_jid=5229428007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
-   "posted": "2026-09-01",
-   "firstSeen": "2026-10-02"
+   "posted": "2026-09-02",
+   "firstSeen": "2026-10-08"
   },
   {
    "title": "Product Designer, Marketplace",
@@ -158,6 +184,58 @@
    "firstSeen": "2026-10-03"
   },
   {
+   "title": "Senior Product Designer, Design Systems",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210843007?gh_jid=5210843007",
+   "location": "Seattle, Washington, United States",
+   "discipline": "Design systems",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-12",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "title": "Senior Product Designer, Design Systems",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5129637007?gh_jid=5129637007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Design systems",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-12",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "title": "Director of Advanced Design ",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5209103007?gh_jid=5209103007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Leadership",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-11",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "title": "Senior Product Designer, ArsenalOS",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5208229007?gh_jid=5208229007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-10",
+   "firstSeen": "2026-10-08"
+  },
+  {
    "title": "Staff Product Designer, Presence",
    "company": "Reddit",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8120566",
@@ -221,6 +299,32 @@
    "salary": "",
    "posted": "2026-07-29",
    "firstSeen": "2026-10-03"
+  },
+  {
+   "title": "Product Designer, ArsenalOS",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5180728007?gh_jid=5180728007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-07-06",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "title": "Lead Environmental Design Producer",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5176659007?gh_jid=5176659007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-06-30",
+   "firstSeen": "2026-10-08"
   },
   {
    "title": "Senior Designer, Creative Studio",
@@ -305,13 +409,16 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 162,
+   "open": 160,
    "design": 1,
    "kept": 0
   },
   {
    "company": "Anduril",
-   "error": "HTTP 404"
+   "ats": "greenhouse",
+   "open": 2455,
+   "design": 9,
+   "kept": 7
   },
   {
    "company": "Boulevard",
@@ -323,35 +430,35 @@
   {
    "company": "Discord",
    "ats": "greenhouse",
-   "open": 49,
+   "open": 48,
    "design": 5,
    "kept": 0
   },
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 155,
-   "design": 8,
+   "open": 151,
+   "design": 7,
    "kept": 0
   },
   {
    "company": "GoFundMe",
    "ats": "greenhouse",
-   "open": 23,
+   "open": 22,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Lattice",
    "ats": "greenhouse",
-   "open": 14,
+   "open": 13,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Lightspark",
    "ats": "ashby",
-   "open": 3,
+   "open": 4,
    "design": 0,
    "kept": 0
   },
@@ -379,28 +486,28 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 151,
+   "open": 155,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 167,
+   "open": 171,
    "design": 10,
    "kept": 1
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 26,
+   "open": 27,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Suno",
    "ats": "ashby",
-   "open": 69,
+   "open": 70,
    "design": 4,
    "kept": 2
   },
@@ -414,7 +521,7 @@
   {
    "company": "Vercel",
    "ats": "greenhouse",
-   "open": 84,
+   "open": 87,
    "design": 2,
    "kept": 0
   },
