@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-08T19:38:11.686Z",
+ "updated": "2026-10-09T19:13:04.818Z",
  "jobs": [
+  {
+   "title": "Product Designer, Player Experiences",
+   "company": "Discord",
+   "url": "https://job-boards.greenhouse.io/discord/jobs/8879502002",
+   "location": "San Francisco Bay Area",
+   "discipline": "Product & UX",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-10-08",
+   "firstSeen": "2026-10-09"
+  },
+  {
+   "title": "Brand Designer, Web",
+   "company": "Figma",
+   "url": "https://boards.greenhouse.io/figma/jobs/6216211004?gh_jid=6216211004",
+   "location": "San Francisco, CA • New York, NY • United States",
+   "discipline": "Brand & visual",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-10-08",
+   "firstSeen": "2026-10-09"
+  },
   {
    "title": "Senior Product Designer, Design Systems",
    "company": "Discord",
@@ -409,14 +435,14 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 160,
+   "open": 161,
    "design": 1,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2455,
+   "open": 2479,
    "design": 9,
    "kept": 7
   },
@@ -431,14 +457,14 @@
    "company": "Discord",
    "ats": "greenhouse",
    "open": 48,
-   "design": 5,
+   "design": 6,
    "kept": 0
   },
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 151,
-   "design": 7,
+   "open": 152,
+   "design": 8,
    "kept": 0
   },
   {
@@ -458,7 +484,7 @@
   {
    "company": "Lightspark",
    "ats": "ashby",
-   "open": 4,
+   "open": 5,
    "design": 0,
    "kept": 0
   },
@@ -486,7 +512,7 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 155,
+   "open": 153,
    "design": 1,
    "kept": 1
   },
@@ -494,20 +520,20 @@
    "company": "Scopely",
    "ats": "greenhouse",
    "open": 171,
-   "design": 10,
+   "design": 9,
    "kept": 1
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 27,
+   "open": 25,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Suno",
    "ats": "ashby",
-   "open": 70,
+   "open": 71,
    "design": 4,
    "kept": 2
   },
@@ -521,7 +547,7 @@
   {
    "company": "Vercel",
    "ats": "greenhouse",
-   "open": 87,
+   "open": 89,
    "design": 2,
    "kept": 0
   },
