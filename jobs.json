@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T19:13:04.818Z",
+ "updated": "2026-10-10T18:12:19.995Z",
  "jobs": [
   {
    "title": "Product Designer, Player Experiences",
@@ -212,10 +212,10 @@
   {
    "title": "Senior Product Designer, Design Systems",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210843007?gh_jid=5210843007",
-   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5129637007?gh_jid=5129637007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Design systems",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -225,10 +225,10 @@
   {
    "title": "Senior Product Designer, Design Systems",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5129637007?gh_jid=5129637007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210843007?gh_jid=5210843007",
+   "location": "Seattle, Washington, United States",
    "discipline": "Design systems",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -435,35 +435,35 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 161,
+   "open": 160,
    "design": 1,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2479,
+   "open": 2491,
    "design": 9,
    "kept": 7
   },
   {
    "company": "Boulevard",
    "ats": "greenhouse",
-   "open": 15,
+   "open": 14,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Discord",
    "ats": "greenhouse",
-   "open": 48,
+   "open": 49,
    "design": 6,
    "kept": 0
   },
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 152,
+   "open": 150,
    "design": 8,
    "kept": 0
   },
@@ -512,28 +512,28 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 153,
+   "open": 147,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 171,
+   "open": 172,
    "design": 9,
    "kept": 1
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 25,
+   "open": 24,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Suno",
    "ats": "ashby",
-   "open": 71,
+   "open": 73,
    "design": 4,
    "kept": 2
   },
