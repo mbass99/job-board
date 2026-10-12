@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T18:35:25.656Z",
+ "updated": "2026-10-12T21:57:12.264Z",
  "jobs": [
   {
    "title": "Product Designer, Player Experiences",
@@ -435,14 +435,14 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 161,
+   "open": 162,
    "design": 1,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2492,
+   "open": 2491,
    "design": 9,
    "kept": 7
   },
@@ -463,7 +463,7 @@
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 150,
+   "open": 151,
    "design": 8,
    "kept": 0
   },
@@ -512,21 +512,21 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 147,
+   "open": 143,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 172,
-   "design": 9,
+   "open": 177,
+   "design": 12,
    "kept": 1
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 24,
+   "open": 25,
    "design": 1,
    "kept": 1
   },
