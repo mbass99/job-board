@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T21:57:12.264Z",
+ "updated": "2026-10-13T20:01:46.889Z",
  "jobs": [
   {
    "title": "Product Designer, Player Experiences",
@@ -95,10 +95,10 @@
   {
    "title": "Senior Product Designer, Space",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5230760007?gh_jid=5230760007",
-   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227607007?gh_jid=5227607007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Product & UX",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -108,10 +108,10 @@
   {
    "title": "Senior Product Designer, Space",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227607007?gh_jid=5227607007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5230760007?gh_jid=5230760007",
+   "location": "Seattle, Washington, United States",
    "discipline": "Product & UX",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -435,35 +435,35 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 162,
+   "open": 167,
    "design": 1,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2491,
+   "open": 2489,
    "design": 9,
    "kept": 7
   },
   {
    "company": "Boulevard",
    "ats": "greenhouse",
-   "open": 14,
+   "open": 13,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Discord",
    "ats": "greenhouse",
-   "open": 49,
+   "open": 47,
    "design": 6,
    "kept": 0
   },
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 151,
+   "open": 143,
    "design": 8,
    "kept": 0
   },
@@ -477,14 +477,14 @@
   {
    "company": "Lattice",
    "ats": "greenhouse",
-   "open": 13,
+   "open": 11,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Lightspark",
    "ats": "ashby",
-   "open": 5,
+   "open": 7,
    "design": 0,
    "kept": 0
   },
@@ -505,21 +505,21 @@
   {
    "company": "Nova Credit",
    "ats": "greenhouse",
-   "open": 8,
+   "open": 7,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 143,
+   "open": 145,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 177,
+   "open": 178,
    "design": 12,
    "kept": 1
   },
