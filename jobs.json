@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T20:01:46.889Z",
+ "updated": "2026-10-14T18:17:01.367Z",
  "jobs": [
   {
    "title": "Product Designer, Player Experiences",
@@ -435,49 +435,49 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 167,
+   "open": 163,
    "design": 1,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2489,
+   "open": 2498,
    "design": 9,
    "kept": 7
   },
   {
    "company": "Boulevard",
    "ats": "greenhouse",
-   "open": 13,
+   "open": 14,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Discord",
    "ats": "greenhouse",
-   "open": 47,
+   "open": 48,
    "design": 6,
    "kept": 0
   },
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 143,
+   "open": 146,
    "design": 8,
    "kept": 0
   },
   {
    "company": "GoFundMe",
    "ats": "greenhouse",
-   "open": 22,
+   "open": 23,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Lattice",
    "ats": "greenhouse",
-   "open": 11,
+   "open": 9,
    "design": 0,
    "kept": 0
   },
@@ -491,7 +491,7 @@
   {
    "company": "Linear",
    "ats": "ashby",
-   "open": 31,
+   "open": 30,
    "design": 3,
    "kept": 2
   },
@@ -512,21 +512,21 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 145,
+   "open": 144,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 178,
-   "design": 12,
+   "open": 175,
+   "design": 9,
    "kept": 1
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 25,
+   "open": 26,
    "design": 1,
    "kept": 1
   },
@@ -547,14 +547,14 @@
   {
    "company": "Vercel",
    "ats": "greenhouse",
-   "open": 89,
+   "open": 90,
    "design": 2,
    "kept": 0
   },
   {
    "company": "WorkOS",
    "ats": "ashby",
-   "open": 30,
+   "open": 29,
    "design": 1,
    "kept": 1
   }
