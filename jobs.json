@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-14T18:17:01.367Z",
+ "updated": "2026-10-15T17:58:33.395Z",
  "jobs": [
+  {
+   "title": "Senior Product Designer, Mission Autonomy",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
+   "location": "Washington, District of Columbia, United States",
+   "discipline": "Product & UX",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-10-14",
+   "firstSeen": "2026-10-15"
+  },
+  {
+   "title": "Senior Product Designer, Mission Autonomy",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-10-14",
+   "firstSeen": "2026-10-15"
+  },
   {
    "title": "Product Designer, Player Experiences",
    "company": "Discord",
@@ -95,10 +121,10 @@
   {
    "title": "Senior Product Designer, Space",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227607007?gh_jid=5227607007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5230760007?gh_jid=5230760007",
+   "location": "Seattle, Washington, United States",
    "discipline": "Product & UX",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -108,10 +134,10 @@
   {
    "title": "Senior Product Designer, Space",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5230760007?gh_jid=5230760007",
-   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227607007?gh_jid=5227607007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Product & UX",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -405,19 +431,6 @@
    "firstSeen": "2026-10-03"
   },
   {
-   "title": "Frontend Design Systems Engineer",
-   "company": "Seeq",
-   "url": "https://apply.workable.com/j/B3E0E9645D",
-   "location": "United States",
-   "discipline": "Design systems",
-   "fit": true,
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "",
-   "posted": "2026-05-01",
-   "firstSeen": "2026-10-03"
-  },
-  {
    "title": "Senior / Staff Product Designer",
    "company": "Linear",
    "url": "https://jobs.ashbyhq.com/linear/a264869e-f058-487c-ab7f-9b77dffa427c",
@@ -435,21 +448,21 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 163,
+   "open": 160,
    "design": 1,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2498,
-   "design": 9,
-   "kept": 7
+   "open": 2528,
+   "design": 11,
+   "kept": 8
   },
   {
    "company": "Boulevard",
    "ats": "greenhouse",
-   "open": 14,
+   "open": 13,
    "design": 0,
    "kept": 0
   },
@@ -463,7 +476,7 @@
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 146,
+   "open": 142,
    "design": 8,
    "kept": 0
   },
@@ -505,42 +518,42 @@
   {
    "company": "Nova Credit",
    "ats": "greenhouse",
-   "open": 7,
+   "open": 8,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 144,
+   "open": 147,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 175,
+   "open": 174,
    "design": 9,
    "kept": 1
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 26,
-   "design": 1,
-   "kept": 1
+   "open": 25,
+   "design": 0,
+   "kept": 0
   },
   {
    "company": "Suno",
    "ats": "ashby",
-   "open": 73,
+   "open": 72,
    "design": 4,
    "kept": 2
   },
   {
    "company": "Truemed",
    "ats": "ashby",
-   "open": 9,
+   "open": 7,
    "design": 0,
    "kept": 0
   },
