@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T18:16:38.909Z",
+ "updated": "2026-10-21T18:20:34.082Z",
  "jobs": [
   {
    "title": "Senior Product Designer, Mission Autonomy",
@@ -158,7 +158,7 @@
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Senior Product Designer",
+   "title": "Product Designer",
    "company": "Anduril",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5229428007?gh_jid=5229428007",
    "location": "Costa Mesa, California, United States",
@@ -225,10 +225,10 @@
   {
    "title": "Senior Product Designer, Design Systems",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5129637007?gh_jid=5129637007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210843007?gh_jid=5210843007",
+   "location": "Seattle, Washington, United States",
    "discipline": "Design systems",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -238,10 +238,10 @@
   {
    "title": "Senior Product Designer, Design Systems",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210843007?gh_jid=5210843007",
-   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5129637007?gh_jid=5129637007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Design systems",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -390,61 +390,48 @@
    "salary": "",
    "posted": "2026-05-07",
    "firstSeen": "2026-10-03"
-  },
-  {
-   "title": "Senior / Staff Product Designer",
-   "company": "Linear",
-   "url": "https://jobs.ashbyhq.com/linear/a264869e-f058-487c-ab7f-9b77dffa427c",
-   "location": "North America",
-   "discipline": "Product & UX",
-   "fit": true,
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "",
-   "posted": "2026-04-23",
-   "firstSeen": "2026-10-03"
   }
  ],
  "report": [
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 180,
+   "open": 194,
    "design": 1,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2526,
+   "open": 2516,
    "design": 11,
    "kept": 8
   },
   {
    "company": "Boulevard",
    "ats": "greenhouse",
-   "open": 15,
+   "open": 16,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Discord",
    "ats": "greenhouse",
-   "open": 46,
+   "open": 45,
    "design": 5,
    "kept": 0
   },
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 143,
+   "open": 139,
    "design": 7,
    "kept": 0
   },
   {
    "company": "GoFundMe",
    "ats": "greenhouse",
-   "open": 23,
+   "open": 24,
    "design": 0,
    "kept": 0
   },
@@ -465,9 +452,9 @@
   {
    "company": "Linear",
    "ats": "ashby",
-   "open": 27,
-   "design": 2,
-   "kept": 2
+   "open": 29,
+   "design": 1,
+   "kept": 1
   },
   {
    "company": "ngrok",
@@ -486,21 +473,21 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 155,
+   "open": 153,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 171,
+   "open": 172,
    "design": 8,
    "kept": 1
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 31,
+   "open": 30,
    "design": 0,
    "kept": 0
   },
@@ -514,7 +501,7 @@
   {
    "company": "Truemed",
    "ats": "ashby",
-   "open": 7,
+   "open": 8,
    "design": 0,
    "kept": 0
   },
