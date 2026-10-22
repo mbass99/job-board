@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T18:20:34.082Z",
+ "updated": "2026-10-22T18:14:42.375Z",
  "jobs": [
   {
    "title": "Senior Product Designer, Mission Autonomy",
@@ -301,19 +301,6 @@
    "firstSeen": "2026-10-03"
   },
   {
-   "title": "Senior Product Designer, Growth",
-   "company": "Vercel",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6131210004",
-   "location": "Hybrid - San Francisco, New York City",
-   "discipline": "Product & UX",
-   "fit": false,
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": "",
-   "posted": "2026-07-30",
-   "firstSeen": "2026-10-03"
-  },
-  {
    "title": "Product Designer, CMS",
    "company": "Figma",
    "url": "https://boards.greenhouse.io/figma/jobs/6126976004?gh_jid=6126976004",
@@ -396,14 +383,14 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 194,
+   "open": 192,
    "design": 1,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2516,
+   "open": 2490,
    "design": 11,
    "kept": 8
   },
@@ -417,28 +404,28 @@
   {
    "company": "Discord",
    "ats": "greenhouse",
-   "open": 45,
+   "open": 44,
    "design": 5,
    "kept": 0
   },
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 139,
+   "open": 140,
    "design": 7,
    "kept": 0
   },
   {
    "company": "GoFundMe",
    "ats": "greenhouse",
-   "open": 24,
+   "open": 23,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Lattice",
    "ats": "greenhouse",
-   "open": 9,
+   "open": 8,
    "design": 0,
    "kept": 0
   },
@@ -452,7 +439,7 @@
   {
    "company": "Linear",
    "ats": "ashby",
-   "open": 29,
+   "open": 34,
    "design": 1,
    "kept": 1
   },
@@ -473,21 +460,21 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 153,
+   "open": 156,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 172,
+   "open": 179,
    "design": 8,
    "kept": 1
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 30,
+   "open": 31,
    "design": 0,
    "kept": 0
   },
@@ -509,7 +496,7 @@
    "company": "Vercel",
    "ats": "greenhouse",
    "open": 95,
-   "design": 2,
+   "design": 1,
    "kept": 0
   },
   {
