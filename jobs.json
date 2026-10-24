@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-23T18:04:10.440Z",
+ "updated": "2026-10-24T17:10:00.272Z",
  "jobs": [
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
-   "location": "Washington, District of Columbia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Product & UX",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -17,10 +17,10 @@
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
+   "location": "Washington, District of Columbia, United States",
    "discipline": "Product & UX",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -327,7 +327,7 @@
    "firstSeen": "2026-10-20"
   },
   {
-   "title": "Lead Environmental Design Producer",
+   "title": "Lead Experiential Design Producer",
    "company": "Anduril",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5176659007?gh_jid=5176659007",
    "location": "Costa Mesa, California, United States",
@@ -383,14 +383,14 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 196,
+   "open": 191,
    "design": 3,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2502,
+   "open": 2508,
    "design": 11,
    "kept": 8
   },
@@ -404,21 +404,21 @@
   {
    "company": "Discord",
    "ats": "greenhouse",
-   "open": 45,
+   "open": 46,
    "design": 5,
    "kept": 0
   },
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 140,
+   "open": 138,
    "design": 7,
    "kept": 0
   },
   {
    "company": "GoFundMe",
    "ats": "greenhouse",
-   "open": 23,
+   "open": 22,
    "design": 0,
    "kept": 0
   },
@@ -460,7 +460,7 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 159,
+   "open": 160,
    "design": 1,
    "kept": 1
   },
@@ -481,7 +481,7 @@
   {
    "company": "Suno",
    "ats": "ashby",
-   "open": 69,
+   "open": 71,
    "design": 3,
    "kept": 1
   },
