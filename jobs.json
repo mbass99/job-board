@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-27T19:11:19.251Z",
+ "updated": "2026-10-28T19:18:18.443Z",
  "jobs": [
+  {
+   "title": "Director, Product Design",
+   "company": "GoFundMe",
+   "url": "https://job-boards.greenhouse.io/gofundme/jobs/8274780",
+   "location": "Los Angeles, CA; San Diego, CA; San Francisco, CA",
+   "discipline": "Leadership",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-10-28",
+   "firstSeen": "2026-10-28"
+  },
   {
    "title": "Product Designer, Core Experience",
    "company": "Figma",
@@ -267,7 +280,7 @@
    "company": "Airbnb",
    "ats": "greenhouse",
    "open": 194,
-   "design": 3,
+   "design": 2,
    "kept": 0
   },
   {
@@ -291,16 +304,16 @@
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 142,
+   "open": 140,
    "design": 8,
    "kept": 0
   },
   {
    "company": "GoFundMe",
    "ats": "greenhouse",
-   "open": 21,
-   "design": 0,
-   "kept": 0
+   "open": 19,
+   "design": 1,
+   "kept": 1
   },
   {
    "company": "Lattice",
@@ -340,21 +353,21 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 159,
+   "open": 162,
    "design": 2,
    "kept": 2
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 182,
+   "open": 181,
    "design": 8,
    "kept": 1
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 31,
+   "open": 28,
    "design": 0,
    "kept": 0
   },
