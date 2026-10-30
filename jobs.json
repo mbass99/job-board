@@ -1,19 +1,6 @@
 {
- "updated": "2026-10-29T19:23:30.182Z",
+ "updated": "2026-10-30T18:57:25.296Z",
  "jobs": [
-  {
-   "title": "Designer Advocate, Payload",
-   "company": "Figma",
-   "url": "https://boards.greenhouse.io/figma/jobs/6231582004?gh_jid=6231582004",
-   "location": "San Francisco, CA • New York, NY • United States",
-   "discipline": "Other",
-   "fit": false,
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "",
-   "posted": "2026-10-29",
-   "firstSeen": "2026-10-29"
-  },
   {
    "title": "Director, Product Design",
    "company": "GoFundMe",
@@ -56,19 +43,6 @@
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
-   "location": "Washington, District of Columbia, United States",
-   "discipline": "Product & UX",
-   "fit": false,
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "",
-   "posted": "2026-10-14",
-   "firstSeen": "2026-10-29"
-  },
-  {
-   "title": "Senior Product Designer, Mission Autonomy",
-   "company": "Anduril",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
    "location": "Costa Mesa, California, United States",
    "discipline": "Product & UX",
@@ -80,17 +54,17 @@
    "firstSeen": "2026-10-29"
   },
   {
-   "title": "Product Designer, Player Experiences",
-   "company": "Discord",
-   "url": "https://job-boards.greenhouse.io/discord/jobs/8879502002",
-   "location": "San Francisco Bay Area",
+   "title": "Senior Product Designer, Mission Autonomy",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
+   "location": "Washington, District of Columbia, United States",
    "discipline": "Product & UX",
    "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
-   "posted": "2026-10-08",
-   "firstSeen": "2026-10-09"
+   "posted": "2026-10-14",
+   "firstSeen": "2026-10-29"
   },
   {
    "title": "Brand Designer, Web",
@@ -173,19 +147,6 @@
   {
    "title": "Senior Product Designer, Space",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227607007?gh_jid=5227607007",
-   "location": "Costa Mesa, California, United States",
-   "discipline": "Product & UX",
-   "fit": true,
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "",
-   "posted": "2026-09-04",
-   "firstSeen": "2026-10-29"
-  },
-  {
-   "title": "Senior Product Designer, Space",
-   "company": "Anduril",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5230760007?gh_jid=5230760007",
    "location": "Seattle, Washington, United States",
    "discipline": "Product & UX",
@@ -197,17 +158,17 @@
    "firstSeen": "2026-10-29"
   },
   {
-   "title": "Senior Product Design Manager, Growth",
-   "company": "Discord",
-   "url": "https://job-boards.greenhouse.io/discord/jobs/8780263002",
-   "location": "San Francisco Bay Area",
-   "discipline": "Leadership",
-   "fit": false,
+   "title": "Senior Product Designer, Space",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227607007?gh_jid=5227607007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
-   "posted": "2026-09-03",
-   "firstSeen": "2026-10-02"
+   "posted": "2026-09-04",
+   "firstSeen": "2026-10-29"
   },
   {
    "title": "Product Designer",
@@ -244,7 +205,7 @@
    "fit": false,
    "type": "Contract",
    "workplace": "On-site",
-   "salary": "$75 – $90 per hour",
+   "salary": "$75 – $100 per hour",
    "posted": "2026-08-21",
    "firstSeen": "2026-10-02"
   },
@@ -422,14 +383,14 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 191,
+   "open": 200,
    "design": 2,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2550,
+   "open": 2556,
    "design": 11,
    "kept": 8
   },
@@ -443,15 +404,15 @@
   {
    "company": "Discord",
    "ats": "greenhouse",
-   "open": 44,
-   "design": 4,
+   "open": 41,
+   "design": 2,
    "kept": 0
   },
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 143,
-   "design": 9,
+   "open": 140,
+   "design": 8,
    "kept": 0
   },
   {
@@ -464,7 +425,7 @@
   {
    "company": "Lattice",
    "ats": "greenhouse",
-   "open": 9,
+   "open": 8,
    "design": 0,
    "kept": 0
   },
@@ -485,7 +446,7 @@
   {
    "company": "ngrok",
    "ats": "greenhouse",
-   "open": 4,
+   "open": 5,
    "design": 0,
    "kept": 0
   },
@@ -499,14 +460,14 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 165,
+   "open": 162,
    "design": 2,
    "kept": 2
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 180,
+   "open": 178,
    "design": 8,
    "kept": 1
   },
@@ -534,7 +495,7 @@
   {
    "company": "Vercel",
    "ats": "greenhouse",
-   "open": 92,
+   "open": 91,
    "design": 1,
    "kept": 0
   },
