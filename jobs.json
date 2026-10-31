@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T18:57:25.296Z",
+ "updated": "2026-10-31T18:08:13.443Z",
  "jobs": [
   {
    "title": "Director, Product Design",
@@ -147,10 +147,10 @@
   {
    "title": "Senior Product Designer, Space",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5230760007?gh_jid=5230760007",
-   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227607007?gh_jid=5227607007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Product & UX",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -160,10 +160,10 @@
   {
    "title": "Senior Product Designer, Space",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227607007?gh_jid=5227607007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5230760007?gh_jid=5230760007",
+   "location": "Seattle, Washington, United States",
    "discipline": "Product & UX",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -205,7 +205,7 @@
    "fit": false,
    "type": "Contract",
    "workplace": "On-site",
-   "salary": "$75 – $100 per hour",
+   "salary": "$75 – $120 per hour",
    "posted": "2026-08-21",
    "firstSeen": "2026-10-02"
   },
@@ -238,10 +238,10 @@
   {
    "title": "Senior Product Designer, Design Systems",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210843007?gh_jid=5210843007",
-   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5129637007?gh_jid=5129637007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Design systems",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -251,10 +251,10 @@
   {
    "title": "Senior Product Designer, Design Systems",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5129637007?gh_jid=5129637007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210843007?gh_jid=5210843007",
+   "location": "Seattle, Washington, United States",
    "discipline": "Design systems",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -383,14 +383,14 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 200,
+   "open": 202,
    "design": 2,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2556,
+   "open": 2565,
    "design": 11,
    "kept": 8
   },
@@ -439,7 +439,7 @@
   {
    "company": "Linear",
    "ats": "ashby",
-   "open": 32,
+   "open": 31,
    "design": 1,
    "kept": 1
   },
@@ -453,14 +453,14 @@
   {
    "company": "Nova Credit",
    "ats": "greenhouse",
-   "open": 8,
+   "open": 7,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 162,
+   "open": 163,
    "design": 2,
    "kept": 2
   },
@@ -481,7 +481,7 @@
   {
    "company": "Suno",
    "ats": "ashby",
-   "open": 70,
+   "open": 71,
    "design": 3,
    "kept": 1
   },
