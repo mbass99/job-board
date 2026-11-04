@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T20:23:00.701Z",
+ "updated": "2026-11-04T20:39:19.333Z",
  "jobs": [
   {
    "title": "Director, Product Design",
@@ -43,10 +43,10 @@
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
+   "location": "Washington, District of Columbia, United States",
    "discipline": "Product & UX",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -56,10 +56,10 @@
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
-   "location": "Washington, District of Columbia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Product & UX",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -171,32 +171,6 @@
    "firstSeen": "2026-11-03"
   },
   {
-   "title": "Product Designer, Marketplace",
-   "company": "Vercel",
-   "url": "https://job-boards.greenhouse.io/vercel/jobs/6160974004",
-   "location": "Hybrid - San Francisco",
-   "discipline": "Product & UX",
-   "fit": false,
-   "type": "Full-time",
-   "workplace": "Hybrid",
-   "salary": "",
-   "posted": "2026-08-27",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior Designer, Creative Studio & Brand Campaigns (Contract)",
-   "company": "Suno",
-   "url": "https://jobs.ashbyhq.com/suno/38e2a0ea-302b-4059-8e86-8b36ef08b352",
-   "location": "NYC; Remote",
-   "discipline": "Brand & visual",
-   "fit": false,
-   "type": "Contract",
-   "workplace": "On-site",
-   "salary": "$75 – $120 per hour",
-   "posted": "2026-08-21",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Senior Product Designer, Consumer Revenue",
    "company": "Discord",
    "url": "https://job-boards.greenhouse.io/discord/jobs/8731898002",
@@ -275,19 +249,6 @@
    "firstSeen": "2026-11-03"
   },
   {
-   "title": "Staff Product Designer, Presence",
-   "company": "Reddit",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8120566",
-   "location": "Remote - United States",
-   "discipline": "Product & UX",
-   "fit": true,
-   "type": "Full-time",
-   "workplace": "Remote",
-   "salary": "",
-   "posted": "2026-08-10",
-   "firstSeen": "2026-10-03"
-  },
-  {
    "title": "Mobile Product Designer",
    "company": "Linear",
    "url": "https://jobs.ashbyhq.com/linear/eac7f181-d658-4943-9430-51bae2bcd110",
@@ -338,47 +299,34 @@
    "salary": "",
    "posted": "2026-06-30",
    "firstSeen": "2026-11-03"
-  },
-  {
-   "title": "Senior Designer, Creative Studio",
-   "company": "Suno",
-   "url": "https://jobs.ashbyhq.com/suno/b01a7dae-95ed-4357-a46e-5f65041dcb38",
-   "location": "NYC",
-   "discipline": "Brand & visual",
-   "fit": false,
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "$150K – $175K",
-   "posted": "2026-06-26",
-   "firstSeen": "2026-10-03"
   }
  ],
  "report": [
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 212,
+   "open": 210,
    "design": 3,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2561,
+   "open": 2573,
    "design": 11,
    "kept": 8
   },
   {
    "company": "Boulevard",
    "ats": "greenhouse",
-   "open": 11,
+   "open": 12,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Discord",
    "ats": "greenhouse",
-   "open": 35,
+   "open": 32,
    "design": 2,
    "kept": 0
   },
@@ -392,14 +340,14 @@
   {
    "company": "GoFundMe",
    "ats": "greenhouse",
-   "open": 19,
+   "open": 21,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Lattice",
    "ats": "greenhouse",
-   "open": 8,
+   "open": 7,
    "design": 0,
    "kept": 0
   },
@@ -434,14 +382,14 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 163,
-   "design": 2,
-   "kept": 2
+   "open": 162,
+   "design": 1,
+   "kept": 1
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 173,
+   "open": 172,
    "design": 8,
    "kept": 1
   },
@@ -456,7 +404,7 @@
    "company": "Suno",
    "ats": "ashby",
    "open": 71,
-   "design": 2,
+   "design": 0,
    "kept": 0
   },
   {
@@ -469,8 +417,8 @@
   {
    "company": "Vercel",
    "ats": "greenhouse",
-   "open": 89,
-   "design": 1,
+   "open": 88,
+   "design": 0,
    "kept": 0
   },
   {
