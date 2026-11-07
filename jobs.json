@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T20:13:24.181Z",
+ "updated": "2026-11-07T18:26:41.186Z",
  "jobs": [
   {
    "title": "Senior Staff Brand Designer",
@@ -67,6 +67,32 @@
    "firstSeen": "2026-10-26"
   },
   {
+   "title": "Senior Product Designer, Mission Autonomy",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
+   "location": "Washington, District of Columbia, United States",
+   "discipline": "Product & UX",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-10-14",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "title": "Senior Product Designer, Mission Autonomy",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-10-14",
+   "firstSeen": "2026-11-07"
+  },
+  {
    "title": "Brand Designer, Web",
    "company": "Figma",
    "url": "https://boards.greenhouse.io/figma/jobs/6216211004?gh_jid=6216211004",
@@ -132,6 +158,45 @@
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Senior Product Designer, Space",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5230760007?gh_jid=5230760007",
+   "location": "Seattle, Washington, United States",
+   "discipline": "Product & UX",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-04",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "title": "Senior Product Designer, Space",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5227607007?gh_jid=5227607007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-04",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5229428007?gh_jid=5229428007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-09-02",
+   "firstSeen": "2026-11-07"
+  },
+  {
    "title": "Senior Product Designer, Consumer Revenue",
    "company": "Discord",
    "url": "https://job-boards.greenhouse.io/discord/jobs/8731898002",
@@ -158,6 +223,58 @@
    "firstSeen": "2026-10-03"
   },
   {
+   "title": "Senior Product Designer, Design Systems",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5129637007?gh_jid=5129637007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Design systems",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-12",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "title": "Senior Product Designer, Design Systems",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210843007?gh_jid=5210843007",
+   "location": "Seattle, Washington, United States",
+   "discipline": "Design systems",
+   "fit": false,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-12",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "title": "Director of Advanced Design ",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5209103007?gh_jid=5209103007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Leadership",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-11",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "title": "Senior Product Designer, ArsenalOS",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5208229007?gh_jid=5208229007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-08-10",
+   "firstSeen": "2026-11-07"
+  },
+  {
    "title": "Mobile Product Designer",
    "company": "Linear",
    "url": "https://jobs.ashbyhq.com/linear/eac7f181-d658-4943-9430-51bae2bcd110",
@@ -182,19 +299,48 @@
    "salary": "",
    "posted": "2026-07-29",
    "firstSeen": "2026-10-03"
+  },
+  {
+   "title": "Product Designer, ArsenalOS",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5180728007?gh_jid=5180728007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Product & UX",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-07-06",
+   "firstSeen": "2026-11-07"
+  },
+  {
+   "title": "Lead Experiential Design Producer",
+   "company": "Anduril",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5176659007?gh_jid=5176659007",
+   "location": "Costa Mesa, California, United States",
+   "discipline": "Other",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-06-30",
+   "firstSeen": "2026-11-07"
   }
  ],
  "report": [
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 204,
+   "open": 205,
    "design": 3,
    "kept": 0
   },
   {
    "company": "Anduril",
-   "error": "HTTP 404"
+   "ats": "greenhouse",
+   "open": 2600,
+   "design": 11,
+   "kept": 8
   },
   {
    "company": "Boulevard",
@@ -262,14 +408,14 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 161,
+   "open": 163,
    "design": 2,
    "kept": 2
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 166,
+   "open": 167,
    "design": 7,
    "kept": 1
   },
