@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T18:26:41.186Z",
+ "updated": "2026-11-08T18:37:38.791Z",
  "jobs": [
   {
    "title": "Senior Staff Brand Designer",
@@ -69,10 +69,10 @@
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
-   "location": "Washington, District of Columbia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Product & UX",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -82,10 +82,10 @@
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
+   "location": "Washington, District of Columbia, United States",
    "discipline": "Product & UX",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -338,7 +338,7 @@
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2600,
+   "open": 2601,
    "design": 11,
    "kept": 8
   },
@@ -415,7 +415,7 @@
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 167,
+   "open": 168,
    "design": 7,
    "kept": 1
   },
