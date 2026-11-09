@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T18:37:38.791Z",
+ "updated": "2026-11-09T23:15:17.794Z",
  "jobs": [
   {
    "title": "Senior Staff Brand Designer",
@@ -69,10 +69,10 @@
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
+   "location": "Washington, District of Columbia, United States",
    "discipline": "Product & UX",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -82,10 +82,10 @@
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
-   "location": "Washington, District of Columbia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Product & UX",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -116,19 +116,6 @@
    "workplace": "On-site",
    "salary": "",
    "posted": "2026-09-30",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Design Director, World Systems",
-   "company": "Scopely",
-   "url": "https://job-boards.greenhouse.io/scopely/jobs/5429316008?gh_jid=5429316008",
-   "location": "US - United States",
-   "discipline": "Leadership",
-   "fit": true,
-   "type": "Full-time",
-   "workplace": "On-site",
-   "salary": "",
-   "posted": "2026-09-23",
    "firstSeen": "2026-10-02"
   },
   {
@@ -225,10 +212,10 @@
   {
    "title": "Senior Product Designer, Design Systems",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5129637007?gh_jid=5129637007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210843007?gh_jid=5210843007",
+   "location": "Seattle, Washington, United States",
    "discipline": "Design systems",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -238,10 +225,10 @@
   {
    "title": "Senior Product Designer, Design Systems",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210843007?gh_jid=5210843007",
-   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5129637007?gh_jid=5129637007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Design systems",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -331,14 +318,14 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 205,
+   "open": 202,
    "design": 3,
    "kept": 0
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2601,
+   "open": 2578,
    "design": 11,
    "kept": 8
   },
@@ -359,14 +346,14 @@
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 145,
+   "open": 146,
    "design": 7,
    "kept": 0
   },
   {
    "company": "GoFundMe",
    "ats": "greenhouse",
-   "open": 20,
+   "open": 21,
    "design": 1,
    "kept": 1
   },
@@ -408,21 +395,21 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 163,
+   "open": 154,
    "design": 2,
    "kept": 2
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 168,
-   "design": 7,
-   "kept": 1
+   "open": 172,
+   "design": 6,
+   "kept": 0
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 28,
+   "open": 25,
    "design": 0,
    "kept": 0
   },
