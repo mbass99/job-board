@@ -1,6 +1,32 @@
 {
- "updated": "2026-11-10T20:41:06.556Z",
+ "updated": "2026-11-11T21:01:46.718Z",
  "jobs": [
+  {
+   "title": "Lead Program Manager, Design",
+   "company": "Airbnb",
+   "url": "https://careers.airbnb.com/positions/8355483?gh_jid=8355483",
+   "location": "United States ",
+   "discipline": "Leadership",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-11-11",
+   "firstSeen": "2026-11-11"
+  },
+  {
+   "title": "Senior Program Manager, Design",
+   "company": "Airbnb",
+   "url": "https://careers.airbnb.com/positions/8356141?gh_jid=8356141",
+   "location": "United States",
+   "discipline": "Leadership",
+   "fit": true,
+   "type": "Full-time",
+   "workplace": "On-site",
+   "salary": "",
+   "posted": "2026-11-11",
+   "firstSeen": "2026-11-11"
+  },
   {
    "title": "Senior Staff Brand Designer",
    "company": "Discord",
@@ -199,10 +225,10 @@
   {
    "title": "Senior Product Designer, Design Systems",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210843007?gh_jid=5210843007",
-   "location": "Seattle, Washington, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5129637007?gh_jid=5129637007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Design systems",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -212,10 +238,10 @@
   {
    "title": "Senior Product Designer, Design Systems",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5129637007?gh_jid=5129637007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5210843007?gh_jid=5210843007",
+   "location": "Seattle, Washington, United States",
    "discipline": "Design systems",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -305,14 +331,14 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 202,
-   "design": 3,
-   "kept": 0
+   "open": 208,
+   "design": 5,
+   "kept": 2
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2574,
+   "open": 2589,
    "design": 11,
    "kept": 8
   },
@@ -333,21 +359,21 @@
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 143,
+   "open": 142,
    "design": 7,
    "kept": 0
   },
   {
    "company": "GoFundMe",
    "ats": "greenhouse",
-   "open": 21,
+   "open": 20,
    "design": 1,
    "kept": 1
   },
   {
    "company": "Lattice",
    "ats": "greenhouse",
-   "open": 6,
+   "open": 4,
    "design": 0,
    "kept": 0
   },
@@ -382,21 +408,21 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 156,
+   "open": 155,
    "design": 2,
    "kept": 2
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 168,
+   "open": 170,
    "design": 6,
    "kept": 0
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 26,
+   "open": 33,
    "design": 0,
    "kept": 0
   },
@@ -424,7 +450,7 @@
   {
    "company": "WorkOS",
    "ats": "ashby",
-   "open": 28,
+   "open": 27,
    "design": 0,
    "kept": 0
   }
