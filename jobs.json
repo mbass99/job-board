@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:59:46.580Z",
+ "updated": "2026-11-18T21:41:33.153Z",
  "jobs": [
   {
    "title": "Director, Product Design - Systems & Infrastructure ",
@@ -201,7 +201,7 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 200,
+   "open": 204,
    "design": 5,
    "kept": 2
   },
@@ -212,28 +212,28 @@
   {
    "company": "Boulevard",
    "ats": "greenhouse",
-   "open": 11,
+   "open": 12,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Discord",
    "ats": "greenhouse",
-   "open": 25,
+   "open": 28,
    "design": 3,
    "kept": 0
   },
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 139,
-   "design": 8,
+   "open": 142,
+   "design": 9,
    "kept": 0
   },
   {
    "company": "GoFundMe",
    "ats": "greenhouse",
-   "open": 20,
+   "open": 21,
    "design": 1,
    "kept": 1
   },
@@ -254,14 +254,14 @@
   {
    "company": "Linear",
    "ats": "ashby",
-   "open": 33,
+   "open": 32,
    "design": 1,
    "kept": 1
   },
   {
    "company": "ngrok",
    "ats": "greenhouse",
-   "open": 4,
+   "open": 3,
    "design": 0,
    "kept": 0
   },
@@ -275,7 +275,7 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 148,
+   "open": 147,
    "design": 2,
    "kept": 2
   },
@@ -289,7 +289,7 @@
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 32,
+   "open": 31,
    "design": 0,
    "kept": 0
   },
@@ -310,7 +310,7 @@
   {
    "company": "Vercel",
    "ats": "greenhouse",
-   "open": 87,
+   "open": 86,
    "design": 0,
    "kept": 0
   },
