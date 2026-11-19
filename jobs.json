@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:41:33.153Z",
+ "updated": "2026-11-19T21:57:34.972Z",
  "jobs": [
   {
    "title": "Director, Product Design - Systems & Infrastructure ",
@@ -201,7 +201,7 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 204,
+   "open": 201,
    "design": 5,
    "kept": 2
   },
@@ -212,21 +212,21 @@
   {
    "company": "Boulevard",
    "ats": "greenhouse",
-   "open": 12,
+   "open": 10,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Discord",
    "ats": "greenhouse",
-   "open": 28,
+   "open": 27,
    "design": 3,
    "kept": 0
   },
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 142,
+   "open": 145,
    "design": 9,
    "kept": 0
   },
@@ -275,14 +275,14 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 147,
+   "open": 144,
    "design": 2,
    "kept": 2
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 172,
+   "open": 173,
    "design": 7,
    "kept": 0
   },
@@ -296,14 +296,14 @@
   {
    "company": "Suno",
    "ats": "ashby",
-   "open": 62,
+   "open": 63,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Truemed",
    "ats": "ashby",
-   "open": 9,
+   "open": 10,
    "design": 0,
    "kept": 0
   },
