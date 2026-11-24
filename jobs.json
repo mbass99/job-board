@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T01:27:39.403Z",
+ "updated": "2026-11-24T23:21:44.617Z",
  "jobs": [
   {
    "title": "Director, Product Design - Systems & Infrastructure ",
@@ -121,10 +121,10 @@
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
-   "location": "Washington, District of Columbia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Product & UX",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -134,10 +134,10 @@
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
+   "location": "Washington, District of Columbia, United States",
    "discipline": "Product & UX",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -357,14 +357,14 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 198,
+   "open": 200,
    "design": 5,
    "kept": 2
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2609,
+   "open": 2607,
    "design": 12,
    "kept": 9
   },
@@ -385,14 +385,14 @@
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 148,
+   "open": 146,
    "design": 8,
    "kept": 0
   },
   {
    "company": "GoFundMe",
    "ats": "greenhouse",
-   "open": 23,
+   "open": 25,
    "design": 1,
    "kept": 1
   },
@@ -434,7 +434,7 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 147,
+   "open": 149,
    "design": 2,
    "kept": 2
   },
@@ -448,14 +448,14 @@
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 30,
+   "open": 29,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Suno",
    "ats": "ashby",
-   "open": 62,
+   "open": 61,
    "design": 0,
    "kept": 0
   },
@@ -469,7 +469,7 @@
   {
    "company": "Vercel",
    "ats": "greenhouse",
-   "open": 85,
+   "open": 86,
    "design": 0,
    "kept": 0
   },
