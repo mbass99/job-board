@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:21:44.617Z",
+ "updated": "2026-11-25T22:55:00.558Z",
  "jobs": [
   {
    "title": "Director, Product Design - Systems & Infrastructure ",
@@ -357,14 +357,14 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 200,
+   "open": 198,
    "design": 5,
    "kept": 2
   },
   {
    "company": "Anduril",
    "ats": "greenhouse",
-   "open": 2607,
+   "open": 2598,
    "design": 12,
    "kept": 9
   },
@@ -385,7 +385,7 @@
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 146,
+   "open": 142,
    "design": 8,
    "kept": 0
   },
@@ -399,7 +399,7 @@
   {
    "company": "Lattice",
    "ats": "greenhouse",
-   "open": 4,
+   "open": 2,
    "design": 0,
    "kept": 0
   },
@@ -434,28 +434,28 @@
   {
    "company": "Reddit",
    "ats": "greenhouse",
-   "open": 149,
+   "open": 148,
    "design": 2,
    "kept": 2
   },
   {
    "company": "Scopely",
    "ats": "greenhouse",
-   "open": 169,
+   "open": 166,
    "design": 6,
    "kept": 0
   },
   {
    "company": "Seeq",
    "ats": "workable",
-   "open": 29,
+   "open": 30,
    "design": 0,
    "kept": 0
   },
   {
    "company": "Suno",
    "ats": "ashby",
-   "open": 61,
+   "open": 58,
    "design": 0,
    "kept": 0
   },
