@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T22:46:14.779Z",
+ "updated": "2026-11-27T22:27:44.750Z",
  "jobs": [
   {
    "title": "Creative Lead, Design",
@@ -134,10 +134,10 @@
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
-   "location": "Washington, District of Columbia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
+   "location": "Costa Mesa, California, United States",
    "discipline": "Product & UX",
-   "fit": false,
+   "fit": true,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -147,10 +147,10 @@
   {
    "title": "Senior Product Designer, Mission Autonomy",
    "company": "Anduril",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5158219007?gh_jid=5158219007",
-   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261560007?gh_jid=5261560007",
+   "location": "Washington, District of Columbia, United States",
    "discipline": "Product & UX",
-   "fit": true,
+   "fit": false,
    "type": "Full-time",
    "workplace": "On-site",
    "salary": "",
@@ -370,7 +370,7 @@
   {
    "company": "Airbnb",
    "ats": "greenhouse",
-   "open": 202,
+   "open": 200,
    "design": 6,
    "kept": 2
   },
@@ -398,7 +398,7 @@
   {
    "company": "Figma",
    "ats": "greenhouse",
-   "open": 141,
+   "open": 140,
    "design": 8,
    "kept": 0
   },
@@ -482,7 +482,7 @@
   {
    "company": "Vercel",
    "ats": "greenhouse",
-   "open": 86,
+   "open": 85,
    "design": 0,
    "kept": 0
   },
